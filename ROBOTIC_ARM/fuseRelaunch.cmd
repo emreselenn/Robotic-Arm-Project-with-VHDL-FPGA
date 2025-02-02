@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/ISE FILES/ROBOTIC_ARM/tb_TOPmodule_isim_beh.exe" -prj "C:/ISE FILES/ROBOTIC_ARM/tb_TOPmodule_beh.prj" "work.tb_TOPmodule" 

@@ -1,0 +1,3 @@
+work	"PWM_GENERATOR.vhd"
+work	"TOP_MODULE.vhd"
+work	"debouncer.vhd"

@@ -1,0 +1,34 @@
+#CLK
+NET "CLK" LOC = "C9" | IOSTANDARD = LVCMOS33 ;
+
+# PWM OUTPUTS
+NET "pwm_out_rl" LOC = "E8" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ;
+NET "pwm_out_ud" LOC = "F8" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ;
+NET "pwm_out_oc" LOC = "F7" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ;
+NET "pwm_out_fb" LOC = "C5" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ;
+
+#SWITCHES
+#NET "switch1" LOC = "L13" | IOSTANDARD = LVTTL | PULLUP ;
+NET "switch2" LOC = "L14" | IOSTANDARD = LVTTL | PULLUP ;
+NET "switch3" LOC = "H18" | IOSTANDARD = LVTTL | PULLUP ;
+NET "switch4" LOC = "N17" | IOSTANDARD = LVTTL | PULLUP ;
+
+
+#BUTTONS
+NET "east_button" LOC = "H13" | IOSTANDARD = LVTTL | PULLDOWN ;
+NET "west_button" LOC = "D18" | IOSTANDARD = LVTTL | PULLDOWN ;
+NET "north_button" LOC = "V4" | IOSTANDARD = LVTTL | PULLDOWN ;
+NET "south_button" LOC = "K17" | IOSTANDARD = LVTTL | PULLDOWN ;
+NET "rot_button" LOC = "V16" | IOSTANDARD = LVTTL | PULLDOWN ;
+
+
+
+############################################################################################
+#VGA PORTS
+
+NET "RGB<0>" LOC = "H14" | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+NET "RGB<1>" LOC = "H15" | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+NET "RGB<2>" LOC = "G15" | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+NET "HS" LOC = "F15" | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+NET "VS" LOC = "F14" | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+
